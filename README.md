@@ -1,5 +1,5 @@
-# wicoder
-auto generador de código básico
+# wicoder build code generate
+auto generate code basic
 
 <ul>
     <li>
