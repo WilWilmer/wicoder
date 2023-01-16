@@ -22,8 +22,8 @@ auto generate code basic
         <pre>
                 <code class="hljs language-xml"><span class="hljs-tag">&lt;<span class="hljs-name">repositories</span>&gt;</span>
                     <span class="hljs-tag">&lt;<span class="hljs-name">repository</span>&gt;</span>
-                    <span class="hljs-tag">&lt;<span class="hljs-name">id</span>&gt;</span>jitpack.io<span class="hljs-tag">&lt;/<span class="hljs-name">id</span>&gt;</span>
-                    <span class="hljs-tag">&lt;<span class="hljs-name">url</span>&gt;</span>https://jitpack.io<span class="hljs-tag">&lt;/<span class="hljs-name">url</span>&gt;</span>
+                      <span class="hljs-tag">&lt;<span class="hljs-name">id</span>&gt;</span>jitpack.io<span class="hljs-tag">&lt;/<span class="hljs-name">id</span>&gt;</span>
+                      <span class="hljs-tag">&lt;<span class="hljs-name">url</span>&gt;</span>https://jitpack.io<span class="hljs-tag">&lt;/<span class="hljs-name">url</span>&gt;</span>
                     <span class="hljs-tag">&lt;/<span class="hljs-name">repository</span>&gt;</span>
                 <span class="hljs-tag">&lt;/<span class="hljs-name">repositories</span>&gt;</span>
                 </code>
