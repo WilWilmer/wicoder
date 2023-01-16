@@ -16,6 +16,7 @@ auto generador de código básico
             </code>
         </pre>
     </li>
+    
     <li>
         <p>agregar la repository <em>pom.xml</em> </p>
         <pre>
@@ -28,6 +29,7 @@ auto generador de código básico
                 </code>
         </pre>
     </li>
+    
     <li>
         <p>Install the package.</p>
         <pre><code class="hljs language-shell">$ mvn install</code></pre>
