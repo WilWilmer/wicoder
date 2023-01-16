@@ -15,6 +15,7 @@ public class Buffer {
     final private static String JWT = "%s -> Message: {} ";
 
     final public static String toJSON(Object obj) {
+        
         try {
             ObjectMapper mapper = new ObjectMapper();
             mapper.setVisibility(PropertyAccessor.FIELD, JsonAutoDetect.Visibility.ANY);
