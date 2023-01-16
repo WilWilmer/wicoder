@@ -39,32 +39,38 @@ auto generador de código básico
 <ul>
     <li>
         <p>4. the package use.</p>
-        <pre><code class="hljs language-shell"> CodeBuilder in = new CodeBuilder();</code></pre>
-        <pre><code class="hljs language-shell">in.setConfig("com.example.configuration") </code></pre>
-        <pre><code class="hljs language-shell"> .setApplication("com.example.application", "/v1/")</code></pre>
-        <pre><code class="hljs language-shell"> .setInfraestructure("com.example.infrastructure") </code></pre>
-        <pre><code class="hljs language-shell"> .setDomain("atc.cobranza.domain") </code></pre>
-        <pre><code class="hljs language-shell"> .setClassFlex(new Class[] { </code></pre>
-        <pre><code class="hljs language-shell">  QuartzJob.class </code></pre>
-        <pre><code class="hljs language-shell"> }); </code></pre>
+        <pre><code class="hljs language-shell"> CodeBuilder in = new CodeBuilder(); 
+        <br> in.setConfig("com.example.configuration")
+        <br> .setApplication("com.example.application", "/v1/")
+        <br> .setInfraestructure("com.example.infrastructure")
+        <br> .setDomain("com.example.domain")
+        <br> .setClassFlex(new Class[] {
+        <br>  QuartzJob.class 
+        <br> }); 
+        </code></pre>
     </li>
 </ul>
 
-json'''
+<ul>
+    <li>
+        <p>5. json  filter.</p>
+        <pre><code class="hljs language-shell">{
+        "pq_datatype": "JSON",
+        "pq_filter": {
+            "mode": "AND",
+            "data": []
+        },
+        "pq_curpage": 0,
+        "pq_rpp": 10,
+        "pq_sort": [
+            {
+                "dataIndx": "id",
+                "dir": "up"
+            }
+        ]
+    }
+        </code></pre>
+    </li>
+</ul>
 
-{
-    "pq_datatype": "JSON",
-    "pq_filter": {
-        "mode": "AND",
-        "data": []
-    },
-    "pq_curpage": 0,
-    "pq_rpp": 10,
-    "pq_sort": [
-        {
-            "dataIndx": "id",
-            "dir": "up"
-        }
-    ]
-}
-'''
+
