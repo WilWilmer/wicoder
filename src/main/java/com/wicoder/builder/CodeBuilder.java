@@ -122,8 +122,6 @@ public class CodeBuilder {
             writerData.close();
             writerData.flush();
 
-
-
             PrintWriter writerPortSpi = createNewFile(NamePortSpi);
             writerPortSpi.println(String.format("%1$s %2$s;","package",DOMAIN_SUFFIX.concat(".port.spi")));
             writerPortSpi.println();
@@ -467,7 +465,11 @@ public class CodeBuilder {
 
     private PrintWriter createNewFile(String nameFile) throws IOException {
 
+
         File myObj = new File(nameFile);
+        if(myObj.mkdirs()){
+            System.out.println("File created: " + myObj.getName());
+        }
         if (myObj.createNewFile()) {
             System.out.println("File created: " + myObj.getName());
         } else {
