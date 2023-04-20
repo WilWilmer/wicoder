@@ -161,3 +161,21 @@ add Controller Class Notation
 ### *run application and generate code*
 
     mvn clean install spring-boot:run
+    
+    ```json
+{
+        "pq_datatype": "JSON",
+        "pq_filter": {
+            "mode": "AND",
+            "data": []
+        },
+        "pq_curpage": 0,
+        "pq_rpp": 10,
+        "pq_sort": [
+            {
+                "dataIndx": "id",
+                "dir": "up"
+            }
+        ]
+    }
+```
