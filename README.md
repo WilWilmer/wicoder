@@ -162,7 +162,7 @@ add Controller Class Notation
 
     mvn clean install spring-boot:run
     
-    ```json
+``` json
 {
         "pq_datatype": "JSON",
         "pq_filter": {
@@ -179,3 +179,4 @@ add Controller Class Notation
         ]
     }
 ```
+
